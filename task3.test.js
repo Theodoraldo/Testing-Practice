@@ -1,7 +1,7 @@
 const Calculator = require('./task3');
 
-describe('Add', () => {
-  test('10+10=20', () => {
+describe('Arithmetic', () => {
+  it('Add', () => {
     //Arange
     const x = 10;
     const y = 10;
@@ -12,10 +12,8 @@ describe('Add', () => {
     //Assert
     expect(result).toBe(20);
   });
-});
 
-describe('Subtract', () => {
-  test('10-10=0', () => {
+  it('Subtract', () => {
     //Arrange
     const x = 10;
     const y = 10;
@@ -27,10 +25,8 @@ describe('Subtract', () => {
     //Assert
     expect(result).toBe(0);
   });
-});
 
-describe('divide', () => {
-  test('10/10=1', () => {
+  it('Divide', () => {
     //Arrange
     const x = 10;
     const y = 10;
@@ -42,10 +38,8 @@ describe('divide', () => {
     //Assert
     expect(result).toBe(1);
   });
-});
 
-describe('multiply', () => {
-  test('10*10=100', () => {
+  it('Multiply', () => {
     //Arrange
     const x = 10;
     const y = 10;
